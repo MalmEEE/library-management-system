@@ -18,7 +18,7 @@ const DeleteBook: React.FC = () => {
   useEffect(() => {
     const fetchBooks = async () => {
       try {
-        const response = await axios.get('http://localhost:5202/api/books');
+        const response = await axios.get('http://localhost:5100/api/books');
         setBooks(response.data);
         setLoading(false);
       } catch (error) {
@@ -35,7 +35,7 @@ const DeleteBook: React.FC = () => {
   const handleDelete = async (bookId: number) => {
     if (window.confirm("Are you sure you want to delete this book?")) {
       try {
-        await axios.delete(`http://localhost:5202/api/books/${bookId}`);
+        await axios.delete(`http://localhost:5100/api/books/${bookId}`);
         alert('Book deleted successfully!');
         // Remove the book from the list after deletion
         setBooks(books.filter((book) => book.id !== bookId));

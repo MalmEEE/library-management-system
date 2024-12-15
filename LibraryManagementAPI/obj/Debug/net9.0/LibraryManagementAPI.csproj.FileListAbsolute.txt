@@ -302,3 +302,4 @@ C:\Users\User\Downloads\myproject2\My project\LibraryManagementAPI\obj\Debug\net
 C:\Users\User\Downloads\myproject2\My project\LibraryManagementAPI\obj\Debug\net9.0\LibraryManagementAPI.pdb
 C:\Users\User\Downloads\myproject2\My project\LibraryManagementAPI\obj\Debug\net9.0\LibraryManagementAPI.genruntimeconfig.cache
 C:\Users\User\Downloads\myproject2\My project\LibraryManagementAPI\obj\Debug\net9.0\ref\LibraryManagementAPI.dll
+C:\Users\User\Downloads\myproject2\My project\LibraryManagementAPI\obj\Debug\net9.0\LibraryManagementAPI.sourcelink.json
