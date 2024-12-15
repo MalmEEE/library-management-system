@@ -1,0 +1,85 @@
+/* Dashboard.css */
+
+/* Reset and General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f7fc; /* Light purple-tinted background */
+  color: #333; /* General text color */
+}
+
+/* Dashboard Container */
+.dashboard {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 5rem;
+  text-align: center;
+  background-color: #ffffff; /* White container background */
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.dashboard:hover {
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Dashboard Title */
+.dashboard h1 {
+  margin-top: 0;
+  
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #6a1b9a; /* Deep purple */
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+/* Button Container */
+.dashboard-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* Button Styles */
+.dashboard-buttons button {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ffffff; /* White text */
+  background-color:  #ce93d8; /* Primary purple */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-buttons button:hover {
+  background-color: #ab47bc; /* Slightly darker purple */
+  transform: scale(1.05);
+}
+
+.dashboard-buttons button:active {
+  background-color: #9c27b0; /* Deepest purple */
+  transform: scale(0.98);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 1.5rem;
+  }
+  .dashboard h1 {
+    font-size: 2rem;
+  }
+  .dashboard-buttons button {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+  }
+}
